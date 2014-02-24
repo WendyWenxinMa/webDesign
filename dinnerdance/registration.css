@@ -1,0 +1,61 @@
+@font-face{
+	font-family: CorleoneDue;
+	src: url("CorleoneDue.ttf");
+}
+
+#registration {
+	background-color:#1a1915;
+	color: #c68930;
+	padding-top: 0px;
+}
+
+#registration .reg-title{
+
+	font-family: CorleoneDue;
+	font-size: 32px;
+}
+
+#registration form .title{
+	
+	width: 12em;
+	color: #c68930;
+	font-family: CorleoneDue;
+	font-size: 20px;
+}
+
+#registration form .notice{
+
+	font-family: CorleoneDue;
+	color: #c68930;
+	font-size: 20px;
+}
+
+#registration form .info {
+
+	width: 21em;
+	font-family: arial;
+	font-size: 12px;
+	color: white;
+}
+
+#registration form .radio{
+
+	margin-top: 1em;
+}
+
+#registration form .age{
+
+	margin-top: 1em;
+	margin-bottom: 1em;
+}
+
+#reg-submit{
+	font-family: CorleoneDue;
+	font-size: 20px;
+    background: #c58a2c;
+	color: black;
+    width: 100%; /* width of image */
+    height: 40px; /* height of image */
+    border: 0;
+	padding: 0;
+}

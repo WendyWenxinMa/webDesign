@@ -1,0 +1,90 @@
+<html>
+
+<head>
+	<title>ECE Dinner Dance</title>
+	<meta charset="utf-8" />
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+	<meta name="viewpoint" content="width=device-width, initial-scale=1.0"> </meta>
+</head>
+
+<style type="text/css">
+
+@font-face
+{
+font-family: Corleone;
+src: url("font/Corleone.ttf");
+}
+
+@font-face
+{
+font-family: CorleoneDue;
+src: url("font/CorleoneDue.ttf");
+}
+
+body {
+	margin: 0;
+	padding: 0;
+
+	background-color: #1a1915;
+
+	background-image:url('splash-background.png'); 
+	background-size: auto 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.imgbox {
+	height: 100%;
+
+	background-image:url('splash-hand.png'); 
+	background-size: auto 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+
+	opacity: 0;
+}
+
+#enter{
+	position: absolute;
+	top: 40%;
+	left:44%;
+	color: #BBBBBB;
+	font-family: CorleoneDue;
+	font-size: 500%;
+}
+
+#enter:hover{
+	color: #FFFFFF;
+}
+
+a, a:hover, a:visited{
+	text-decoration: none;
+}
+</style>
+
+<body>
+
+	<div class="imgbox">
+	</div>
+
+	<a href="home.html" id="enter">Go.</a>
+
+
+</body>
+
+<script type="text/javascript">
+
+$("body").mousemove(function( event ) {
+	var msg = "Handler for .mousemove() called at ";
+
+	var distX = event.pageX - $(window).width()/2;
+	var distY = event.pageY - $(window).height()/2;
+
+	var distance = Math.sqrt(distX*distX + distY*distY);
+
+	$(".imgbox").css("margin-left", -Math.abs(distance));
+	$(".imgbox").css("opacity", 1-1.0*Math.abs(distance)/100);
+
+});
+
+</script>

@@ -1,0 +1,52 @@
+@font-face{
+	font-family: CorleoneDue;
+	src: url("CorleoneDue.ttf");
+}
+
+#login{
+	background-color:#1a1915;
+	color: #c68930;
+	padding-top: 30px;
+}
+
+#login form table {
+	
+	margin-bottom: 1em;
+}
+
+#login .login-title{
+
+	font-family: CorleoneDue;
+	font-size: 36px;
+}
+
+#login form .title{
+	
+	width: 12em;
+	color: #c68930;
+	font-size: 18px;
+	font-family: CorleoneDue;
+}
+
+#login form .info {
+
+	width: 25em;
+	font-family: arial;
+	font-size: 18px;
+	color: white;
+}
+
+#login-submit, #reset{
+	font-family: CorleoneDue;
+	font-size: 22px;
+    background: #c58a2c;
+	color: black;
+    width: 8.5em; /* width of image */
+    height: 35px; /* height of image */
+	padding: 0;
+    border-color: black;
+}
+
+#login form #reset {
+	margin-left: 0.4em;
+}

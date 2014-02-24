@@ -1,0 +1,33 @@
+/* Sticky footer styles
+-------------------------------------------------- */
+
+
+/* Set the fixed height of the footer here */
+#footer {
+	height: 100px;
+	background-color: #eaeaea;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        font-size: 11px;
+        color: #7d7d7d;
+        margin-top: 40px;
+}
+
+/* Custom page CSS
+-------------------------------------------------- */
+/* Not required for template or sticky footer method. */
+
+
+.container .credit {
+	margin: 20px 0;
+}
+
+#footer > .container {
+        padding-left: 15px;
+	padding-right: 15px;
+}
+
+#footer a:link, a:visited, a:hover {
+    text-decoration: none;
+    color: #7d7d7d;
+}

@@ -1,0 +1,166 @@
+body{
+	background-color: #1A1915;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 100%;
+}
+
+@font-face
+{
+font-family: Corleone;
+src: url("font/Corleone.ttf");
+}
+
+@font-face
+{
+font-family: CorleoneDue;
+src: url("font/CorleoneDue.ttf");
+}
+
+
+
+
+/*========================================================
+=========================header=========================
+========================================================*/
+
+#header{
+	position: fixed;
+	top: 0;
+	width: 100%;
+	height: 70px;
+	background-color: white;
+}
+
+#title{
+	font-family: CorleoneDue;
+	font-size: 30px;
+	text-align: center;
+	padding-top: 0px;
+	margin-top: 20px;
+	padding-left: 30px;
+	color: black;
+}
+/*========================================================
+=========================container=========================
+========================================================*/
+
+#container{
+	width: 1060px;
+	/*height: 640px;*/
+	/*background-color: red;*/
+	margin: auto;
+	padding-top: 75px;
+	padding-bottom: 175px;
+}
+
+#left-image{
+	width: 480px;
+	height: 640px;
+	display: inline-block;
+	background-color: blue;
+
+	position: fixed;
+	top: 100px;
+}
+
+#main-content{
+	width: 580px;
+	/*height: 640px;*/
+	/*background-color: green;*/
+	float: right;
+	margin-top: 0px;
+	margin-bottom: 100px;
+}
+
+#title-image{
+	width: 490px;
+	height: 200px;
+	margin-top: 60px;
+	margin-left: -10px;
+
+}
+
+#sub-title{
+	margin-top: -1px;
+}
+
+h2{
+	color: #C68930;
+	font-family: CorleoneDue;
+	font-size: 36px;
+
+}
+td{
+	color: #C68930;
+	font-family: CorleoneDue;
+	font-size: 30px;
+}
+
+#spec-table{
+	font-size: 150%;
+}
+
+/*=================changing part======================*/
+
+
+#event-title{
+	color: #C68930;
+	font-family: CorleoneDue;
+	font-size: 30px;
+	line-height: 180%;
+	padding-top: 50px;
+
+}
+.info-font{
+	color: #C68930;
+	font-family: CorleoneDue;
+	font-size: 22px;
+}
+
+#following-space{
+	word-spacing: 20px;
+}
+
+/*========================================================
+=========================footer===========================
+========================================================*/
+
+
+footer{
+	width: 100%;
+	height: 70px;
+	background-color: white;
+
+	position: fixed;
+	bottom: 0;
+}
+
+footer a{
+	text-decoration: none;
+	color: black;
+}
+
+footer .selected{
+	color: #C68930;
+}
+
+#footer-font{
+	color: black;
+	font-family: Corleone;
+	font-size: 34px;
+	text-align: center;
+	padding-top: 10px;
+	margin-top: 5px;
+	word-spacing: 10px;
+}
+
+.no-spacing{
+	word-spacing: 0px;
+}
+
+
+
+
+

@@ -1,3 +1,3 @@
-this is README.md
-for testing purposes
-webDesign folder
+# Web practice 
+
+A collection of small examples or projects for personal use.

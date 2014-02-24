@@ -1,0 +1,270 @@
+<html>
+
+<head>
+	<title>ECE Dinner Dance</title>
+	<meta charset="utf-8" />
+
+	<link rel="stylesheet" href="styles.css" type="text/css" media="screen"/>
+	<link rel="stylesheet" href="registration.css" type="text/css" media="screen"/>
+	<link rel="stylesheet" href="login.css" type="text/css" media="screen"/>
+
+
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+
+	<meta name="viewpoint" content="width=device-width, initial-scale=1.0"> </meta>
+
+
+	<!--[if gt IE 7]>
+		<link rel="stylesheet" type="text/css" href="ie.css" media="screen" />
+		<![endif]
+	-->
+
+	<!--[if IE 7]>
+		<link rel="stylesheet" type="text/css" href="ie7.css" media="screen" />
+		<![endif]
+	-->
+
+</head>
+
+<body>
+	<div id="header">
+		<p id="title">The ECE Club presents:</p>
+	</div>
+
+
+	<div id="container">
+		<div id="left-image"><img src="image/left-image.jpg"></div>
+
+		<div class="content-panel active" id="home">
+			<div id="main-content">
+
+				<div id="title-image"><img src="image/title-image.jpg"></div>
+
+				<h2 id="sub-title"> An offer you cannot refuse </h2>
+				<br><br><br>
+
+				<table id="spec-table">
+					<tr>
+						<td>When: </td>
+						<td>February 14th</td>
+						<td>2014</td>
+
+					</tr>
+					<tr>
+						<td>Location:</td>
+						<td>Eglinton Grand</td>
+						<td>(next to Eglinton station)</td>
+					</tr>
+					<tr>
+						<td>Price:</td>
+						<td>Early Bird</td>
+						<td>-$60</td>
+					</tr>
+					<tr>
+						<td></td>
+						<td>Regular</td>
+						<td>-$65</td>
+					</tr>
+					<tr>
+						<td></td>
+						<td>Non-Drinking</td>
+						<td>-$55</td>
+					</tr>
+				</table>	
+			</div>
+		</div>
+
+
+		<div class="content-panel" id="info" style="display: none">
+			<div id="main-content">
+
+				<h2 id="event-title"> Event Info </h2>
+
+				<p class="info-font">What: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ECE Semi-Formal Dinner Dance</p>
+
+				<p class="info-font">Where: &nbsp;&nbsp;Eglinton Grand. 400 Eglinton Ave W. Toronto.
+					ON M5N 1A2
+				</p>
+
+				<p class="info-font">When: &nbsp;&nbsp;&nbsp;
+					Friday. February 14, 2014, 7 p.m. - 1 a.m.
+				</p>
+
+			</div>
+		</div>
+
+		<div class="content-panel" id="menu" style="display: none">
+			<div id="main-content">
+
+				<h2 id="event-title"> Menu </h2>
+				
+
+				<table id="spec-table" class="info-font">
+					<tr >
+						<td>Hor d'Oeuvres:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <br><br></td>
+						<td>Chicken Tikka, Spring Rolls &amp; Cocklail Shrimp<br><br></td>
+					</tr>
+					<tr>
+						<td>Main Menu:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+						<td>Veal Parmesan, Linguini, Butter Chicken, Rice,</td>
+					</tr>
+
+					<tr>
+						<td></td>
+						<td>Steamed Mixed Vegetables, Shahi Paneer, Crepes,
+							<br> Waffles &amp; Other Sweels
+						</td>
+					</tr>
+				</table>
+
+			</div>
+		</div>
+
+		<div class="content-panel" id="registration" style="display: none">
+			<div id="main-content">
+
+				<div id='registration'>
+					<h3 class="reg-title">Registration</h3>
+					
+					<form>
+						<table>
+							<tr>
+								<td class="title">Full Name</td>
+								<td class="info">
+									<input type='text' name='firstname'><br/>
+								</td>
+							</tr>
+							<tr>
+								<td class="title">Ticket Number</td>
+								<td class="info">
+									<input type='text' name='firstname'><br/>
+								</td>
+							</tr>
+							<tr>
+								<td class="title">Password</td>
+								<td class="info">
+									<input type='text' name='firstname'><br/>
+								</td>
+							</tr>
+							<tr>
+								<td class="title">Re-enter Password</td>
+								<td class="info">
+									<input type='text' name='firstname'><br/>
+								</td>
+							</tr>
+							<tr>
+								<td class="title">Email Address</td>
+								<td class="info">
+									<input type='text' name='firstname'><br>
+								</td>
+							</tr>
+							<tr>
+								<td class="title">Year</td>
+								<td class="info">
+									<select>
+										<option value="7">1T7</option>
+										<option value="6">1T6</option>
+										<option value="5">1T5</option>
+										<option value="4">1T4</option>
+										<option value="3">1T3</option>
+										<option value="2">1T3+PEY</option>
+										<option value="prof">Professor</option>
+										<option value="grad">Grad/Other</option>
+									</select>
+								</td>
+							</tr>
+						</table>
+						<table class='radio'>
+							<tr>
+								<td class="title radio">Bus Departure Time</td>
+								<td class="info">
+									<input type="radio" name="timeDep" value="1" checked>6:15 p.m.
+									<input type="radio" name="timeDep" value="2">6:30 p.m.
+									<input type="radio" name="timeDep" value="3">6:45 p.m. <br>
+									<input type="radio" name="timeDep" value="4">8:15 p.m.
+									<input type="radio" name="timeDep" value="5">Not taking bus
+								</td>
+							</tr>
+							<tr>
+								<td class="title">Bus Return Time</td>
+								<td class="info">
+									<input type="radio" name="timeRtn" value="1" checked>11:00 p.m.
+									<input type="radio" name="timeRtn" value="2">12:00 a.m.
+									<input type="radio" name="timeRtn" value="3">1:00 a.m. <br>
+									<input type="radio" name="timeRtn" value="4">Not taking bus
+								</td>
+							</tr>
+						</table>
+						<table>
+							<tr>
+								<br>
+								<td class="notice">*The 8:15 p.m. bus is for those with midterms</td>
+							</tr>
+						</table>
+						<table class='age'>
+							<tr>
+								<td class="title">19+?</td>
+								<td class="info">
+									<input type="radio" name="adult" value="true">Yes
+									<input type="radio" name="adult" value="false" checked>No
+								</td>
+							</tr>
+						</table>
+						<br><br>
+						<input id="reg-submit" type="submit" value="I'm Ready. Sign Me Up!">
+					</form>
+				</div>
+			</div>
+		</div>
+
+		<div class="content-panel" id="login" style="display: none">
+			<div id="main-content">
+
+				<div id='login'>
+					<h3 class="login-title">Login</h3>
+					
+					<form>
+						<table>
+							<tr>
+								<td class="title">Ticket Number</td>
+								<td class="info">
+									<input type='text' name='firstname'><br/>
+								</td>
+							</tr>
+							<tr>
+								<td class="title">Password</td>
+								<td class="info">
+									<input type='text' name='firstname'><br/>
+								</td>
+							</tr>
+						</table>
+						<br>
+						<input style='float: left;' id="login-submit" type="submit" value="Login">
+						<input id="reset" type="submit" value="Reset">
+					</form>
+				</div>
+			</div>
+		</div>
+
+	</div>
+
+
+	<footer>
+		<div id="footer-container">
+			<div id="footer-font">
+				<a href="#home" class="selected">Home</a> &nbsp;&nbsp;
+				<a href="#info" class="no-spacing">Event Info</a> &nbsp;&nbsp;
+				<a href="#menu" >Menu</a> &nbsp;&nbsp;
+				<a href="#registration" >Registration</a> &nbsp;&nbsp;
+				<a href="#login" >Login</a>
+			</div>
+		</div>	
+	</footer>
+
+	<script type="text/javascript" src="switch.js"></script>
+</body>
+
+</html>
+
+
+<!-- &nbsp; -->

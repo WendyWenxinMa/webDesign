@@ -1,0 +1,244 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto:100);
+
+html, body {
+	margin:0;
+	padding:0;
+	width:100%;
+	/*height:200%;*/
+}
+
+body {
+	overflow-x:hidden;
+
+	background:url("image/header.png") center center fixed;
+	background-size:cover;
+	-webkit-background-size:cover;
+	-moz-background-size:cover;
+	-o-background-size:cover;
+}
+
+
+/*==========================================================
+=======================LOADING============================
+==========================================================*/
+
+#loading {
+  width: 100%;
+  height: 100%;
+  top: 0px;
+  left: 0px;
+  position: fixed;
+  display: block;
+  opacity: 0.7;
+  background-color: #fff;
+  z-index: 99;
+  text-align: center;
+}
+
+#loading-image {
+  position: absolute;
+  top: 100px;
+  left: 240px;
+  z-index: 100;
+}
+
+
+/*==========================================================
+=======================HEADER===============================
+==========================================================*/
+
+header
+{
+	width: 100%;
+	height: 100%;
+	
+	/*background: black no-repeat 50% 50%;*/
+	top: 0;
+	position: fixed;
+	z-index: -1;
+}
+
+nav {
+	display:inline-block;
+	position:relative;
+	top:-80px;
+	left:0px;
+	margin:0;
+	padding:0;
+	width:105%;
+	height:250px;
+
+	text-align:right;
+
+	background-color:rgba(255,255,255,0.4);
+
+	transform:rotate(3deg);
+	-webkit-transform:rotate(3deg);
+}
+
+nav ul {
+	margin:0;
+	margin-top:-190px;
+	margin-right:100px;
+	padding:0;
+	display: inline-block;
+	/*height: 520px;*/
+
+	transform:rotate(-3deg);
+	-webkit-transform:rotate(-3deg);
+}
+
+nav ul li {
+	display:inline-block;
+	list-style:none;
+	/*margin-top: -50px;*/
+	/*margin-top: -500px;*/
+}
+
+nav ul li a {
+	/*display:block;*/
+	margin:0;
+	padding:7px 20px;
+	padding-bottom: 25px;
+
+	color:#1e1e1e;
+	font-family:'roboto', sans-serif;
+	font-size:1.7em;
+	text-decoration:none;
+
+	border-bottom:2px solid transparent;
+	box-shadow:0px 2px 0px transparent;
+
+	transition:all .20s ease;
+	-webkit-transition:all .20s ease;
+	-moz-transition:all .20s ease;
+	-o-transition:all .20s ease;
+}
+
+nav ul li a:hover {
+	border-bottom:2px solid #333;
+}
+
+
+
+/*=======================================================
+===================SCROLL EFFECT=======================
+=======================================================*/
+
+#scroll-animate
+{
+	overflow: hidden;
+}
+
+#scroll-animate-main
+{
+	width: 100%;
+	left: 0;
+	position: fixed;
+}
+
+#heightPage,
+#heightScroll
+{
+	width: 10px;
+	top: 0;
+	position: absolute;
+	z-index: 99;
+}
+
+#heightPage
+{
+	left: 0;
+}
+
+#heightScroll
+{
+	right: 0;
+}
+
+
+
+
+.content
+{
+	height: 1000px;
+	min-height: 500px;
+	/*background-color:white;*/
+	background:url("image/groovepaper.png");
+	position: relative;
+	z-index: 1;
+	/*opacity: 0.9;*/
+}
+
+#logo{
+	/*z-index: 100;*/
+	margin-top: 40px;
+	margin-left: 10px;
+	/*opacity: 0.8;*/
+}
+.wrapper-parallax {
+	margin-top: 100%;
+	margin-bottom: 300px;
+	box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+}
+
+#container{
+	width: 100%;
+	height: 100%;
+	padding: 0;
+	margin: 0;
+	text-transform: uppercase;
+	text-align: center;
+	font-family: Helvetica;
+	font-size: 150px;
+	color: #fff;
+}
+
+
+
+header,
+footer,
+#scroll-animate-main
+{
+	-webkit-transition-property: all;
+	-moz-transition-property: all;
+	transition-property: all;
+
+	-webkit-transition-duration: 0.4s;
+	-moz-transition-duration: 0.4s;
+	transition-duration: 0.4s;
+
+	-webkit-transition-timing-function: cubic-bezier(0, 0, 0, 1);
+	-moz-transition-timing-function: cubic-bezier(0, 0, 0, 1);
+	transition-timing-function: cubic-bezier(0, 0, 0, 1);
+}
+
+
+
+
+
+
+
+/*========================================================
+=========================footer===========================
+========================================================*/
+
+footer
+{
+	width: 100%;
+	height: 400px;
+	background-color: black;
+	/*background: gray;*/
+	bottom: -300px;
+	position: fixed;
+	z-index: -1;
+	opacity: 0.5;
+}
+
+
+#footer-font{
+	color: #9d9ea0;
+	font-size: 0.8em;
+	text-align: center;
+	padding-top: 10px;
+}
