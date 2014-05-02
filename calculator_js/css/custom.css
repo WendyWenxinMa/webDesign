@@ -1,0 +1,29 @@
+#calculator-form{
+    background-color: #bab8b8;
+    margin-left: 30px;
+    padding-left: 10px;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    width: 187px;
+    border-radius: 10px;
+    
+}
+
+.space{
+    height: 8px;
+}
+
+#result{
+    height: 50px;
+    width: 150px;
+    margin-top:10px;
+    margin-left: 6px;
+    border-radius: 7px;
+    background-color: #f9f6bb;
+}
+
+#tit{
+    padding-left: 50px;
+    margin: 0;
+    font-family: arial;
+}
